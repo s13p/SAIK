@@ -1,0 +1,231 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@700&amp;display=swap");
+.arkroadmap .row {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.arkroadmap .row .box {
+    margin: 0 auto;
+    border: 4px solid white;
+    border-radius: 20px;
+    width: 300px;
+    height: 370px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    transition: color 0.5s ease-in;
+    z-index: 9;
+}
+
+.arkroadmap .row .box .icon,
+.row .box .content {
+    margin: 50px 0;
+}
+
+.arkroadmap .row .box .icon {
+    width: 80px;
+    height: 80px;
+    display: grid;
+    place-content: center;
+    font-size: 250%;
+    border-radius: 100%;
+    color: #f7f7f7;
+    transition: box-shadow 0.5s ease-in;
+}
+
+.arkroadmap .row .box:hover {
+    color: #fff;
+}
+
+.arkroadmap .row .box:nth-of-type(1) .icon {
+    background-color: #f90;
+    box-shadow: 0px 0px 0px 0px #f90;
+}
+
+.arkroadmap .row .box:nth-of-type(1):hover .icon {
+    box-shadow: 0px 0px 0px 400px #f90;
+}
+
+.arkroadmap .row .box:nth-of-type(2) .icon {
+    background-color: #5158bb;
+    box-shadow: 0px 0px 0px 0px #5158bb;
+}
+
+.arkroadmap .row .box:nth-of-type(2):hover .icon {
+    box-shadow: 0px 0px 0px 400px #5158bb;
+}
+
+.arkroadmap .row .box:nth-of-type(3) .icon {
+    background-color: #11adad;
+    box-shadow: 0px 0px 0px 0px #11adad;
+}
+
+.arkroadmap .row .box:nth-of-type(3):hover .icon {
+    box-shadow: 0px 0px 0px 400px #11adad;
+}
+
+.arkroadmap h3 {
+    text-align: center;
+    font-family: 'Passion One';
+    color: black;
+}
+
+.arkroadmap {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    overflow: hidden;
+    padding: 70px 0;
+}
+
+.vidcontainerark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 0;
+    width: 100%;
+}
+
+.arkroadmap .row {
+    z-index: 9 !important;
+}
+
+.vidcontainerark video {
+    width: 100%;
+    object-fit: cover !important;
+}
+
+.arkroadmap {
+    flex-direction: column;
+}
+
+.row1 {
+    z-index: 9;
+    text-align: center;
+    padding-bottom: 25px;
+}
+
+.row1 h2 {
+    text-transform: uppercase;
+    font-family: 'Passion One';
+    font-size: 60px;
+    padding-top: 40px;
+}
+
+.arkroadmap .row .box:hover h3 {
+    color: white;
+    transition: 0.9s;
+}
+
+.n2-ss-layer-row.n2-ss-layer-with-background.n-uc-15b7c81b8497b-inner {
+    background: black;
+    border-radius: 10px;
+}
+
+div#n2-ss-2 .n-uc-11c2e483e4050-inner {
+    border: none !important;
+}
+
+.n2-ss-layer.n2-ow.n-uc-1379f306abad0 {
+    display: none !important;
+}
+
+.arkroadmap .row .box p {
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+    height: 140px;
+    overflow: auto;
+}
+
+.arkroadmap .row .box .content {
+    margin-top: 0;
+}
+
+.arkroadmap .row .box .icon {
+    margin: 30px 0;
+}
+
+.arkroadmap h3 {
+    text-transform: capitalize;
+}
+
+.arkroadmap p::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+    background-color: #F5F5F5;
+    border-radius: 10px;
+}
+
+.arkroadmap p::-webkit-scrollbar {
+    width: 10px;
+    background-color: #F5F5F5;
+}
+
+.arkroadmap p::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background-image: -webkit-gradient(linear, left bottom, left top, color-stop(0.44, rgb(122, 153, 217)), color-stop(0.72, rgb(73, 125, 189)), color-stop(0.86, rgb(28, 58, 148)));
+}
+
+img.formobb {
+    display: none;
+}
+
+@media (max-width: 1600px) {}
+
+@media (max-width: 1440px) {}
+
+@media (max-width: 1366px) {}
+
+@media (max-width: 1280px) {}
+
+@media (max-width: 1024px) {}
+
+@media (max-width: 800px) {}
+
+@media (max-width: 768px) {}
+
+@media (max-width: 480px) {
+    .arkroadmap {
+        height: auto;
+        width: auto;
+    }
+    .vidcontainerark {
+        height: 100%;
+        width: auto;
+    }
+    .vidcontainerark video {
+        height: 100%;
+        width: auto;
+    }
+    .row1 h2 {
+        font-size: 50px;
+    }
+    .arkroadmap .row .box {
+        margin-bottom: 40px;
+        border-color: black;
+    }
+    .arkroadmap .row .box:hover {
+        border-color: transparent;
+    }
+    video.forwebb {
+        display: none;
+    }
+    img.formobb {
+        display: block;
+        height: 100%;
+    }
+}
+
+@media (max-width: 414px) {}
+
+@media (max-width: 375px) {}
+
+@media (max-width: 360px) {}
